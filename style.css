@@ -47,7 +47,7 @@ body {
 }
 
 main {
-    max-width: 19.375rem;
+    max-width: 21.875rem;
     padding: 1.5em;
     display: flex;
     flex-direction: column;
