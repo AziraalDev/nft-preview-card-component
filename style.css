@@ -14,7 +14,6 @@
     --fw-600: 600;
 }
 
-/*Resets*/
 *,
 ::before,
 ::after {
@@ -34,12 +33,12 @@ body {
     height: 100vh;
 }
 
-a, a:is(:hover, :visited, :focus, :active){
+a,
+a:is(:hover, :visited, :focus, :active) {
     text-decoration: none;
     color: inherit;
 }
 
-/*BODY*/
 body {
     background-color: var(--clr-main-bg);
     display: grid;
@@ -47,7 +46,6 @@ body {
     font-family: var(--font-family);
 }
 
-/*Container*/
 main {
     max-width: 19.375rem;
     padding: 1.5em;
@@ -63,12 +61,12 @@ img {
     border-radius: 0.5rem;
 }
 
-picture{
+picture {
     position: relative;
 }
 
-.hovering-container{
-    position: absolute;  
+.hovering-container {
+    position: absolute;
     width: 100%;
     height: 100%;
     border-radius: 0.5rem;
@@ -78,16 +76,16 @@ picture{
     transition: background-color 200ms ease-in-out;
 }
 
-.hovering-container svg{
+.hovering-container svg {
     visibility: hidden;
     width: auto;
 }
 
-.hovering-container:hover{
+.hovering-container:hover {
     background-color: var(--clr-opacity-cyan);
 }
 
-.hovering-container:hover svg{
+.hovering-container:hover svg {
     visibility: initial;
     color: var(--clr-white);
 }
@@ -98,7 +96,7 @@ picture{
     letter-spacing: 0.005rem;
     font-weight: var(--fw-400);
     margin-top: 0.5rem;
-    
+
 }
 
 .main-title:hover,
@@ -130,12 +128,12 @@ picture{
     flex-wrap: nowrap;
 }
 
-.flex-cont svg{
+.flex-cont svg {
     width: 1.125rem;
     height: 1.125rem;
 }
 
-.flex-cont p{
+.flex-cont p {
     white-space: nowrap;
 }
 
@@ -153,7 +151,7 @@ picture{
     font-weight: var(--fw-300);
 }
 
-hr{
+hr {
     color: var(--clr-line);
 }
 
