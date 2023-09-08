@@ -94,7 +94,7 @@ img {
     color: var(--clr-white);
     font-size: 1.25rem;
     letter-spacing: 0.005rem;
-    font-weight: var(--fw-400);
+    font-weight: var(--fw-600);
     margin-top: 0.5rem;
 
 }
@@ -107,8 +107,7 @@ img {
 }
 
 .main-text {
-    color: var(--clr-white);
-    opacity: 0.5;
+    color: var(--clr-soft-blue);
     font-weight: var(--fw-300);
 }
 
@@ -141,18 +140,13 @@ img {
     color: var(--clr-cyan);
     font-size: 0.875rem;
     margin-left: -0.125rem;
+    font-weight: var(--fw-600);
 }
 
 .days-left {
-    color: var(--clr-white);
-    opacity: 0.5;
-    font-weight: var(--fw-300);
+    color: var(--clr-soft-blue);
+    font-weight: var(--fw-400);
     font-size: 0.875rem;
-    font-weight: var(--fw-300);
-}
-
-hr {
-    color: var(--clr-line);
 }
 
 .avatar {
